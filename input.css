@@ -1,0 +1,19 @@
+/* tailwind below = file > preferences > Settings > unknown > CSS Lint > ignore */
+/* npm run build */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* phaser will break tailwindcss, so you need the canvas block below */
+/* canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+} */
+
